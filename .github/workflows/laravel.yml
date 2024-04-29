@@ -9,7 +9,7 @@ on:
 jobs: # stages (jenkins)
   laravel-tests: # name of stage (in jenkins: "laravel-tests")
 
-    runs-on: ubuntu-latest # agent(jenkins) , runner(GitHub)
+    runs-on: windows-latest # agent(jenkins) , runner(GitHub)
 
     steps:
     - uses: shivammathur/setup-php@15c43e89cdef867065b0213be354c2841860869e
